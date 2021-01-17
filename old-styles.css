@@ -1,0 +1,148 @@
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 62px;
+  position: sticky;
+  top: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-half {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding-right: 75px;
+}
+
+.nb-header {
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+}
+
+.nb-header:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+#img-book {
+  width: 50px;
+  margin-left: 30px;
+}
+
+/* POSTS */
+
+.card-section {
+  margin-left: 205px;
+  margin-right: 205px;
+  margin-top: 25px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.card {
+  background-color: black;
+  border-radius: 9px;
+  height: 350px;
+  width: 525px;
+  text-decoration: none;
+}
+
+.mini-card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 522px;
+}
+
+.mini-card {
+  background-color: black;
+  border-radius: 9px;
+  text-align: center;
+  height: 70px;
+  text-decoration: none;
+}
+
+.card-text {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19pt;
+  padding-top: 18px;
+}
+
+.card-text:hover {
+  color: lightgray;
+}
+
+.card-img {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  height: 275px;
+}
+
+/* BOOKS */
+
+.book-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.book-row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 265px;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.book-text {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.book-img {
+  height: 190px;
+  width: 125px;
+  margin-top: 21.5px;
+}
+
+/* OTHER */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line {
+  height: 2px;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
