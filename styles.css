@@ -1,0 +1,43 @@
+/* NAVBAR */
+.nbt-navbar-img {
+  width: 53px;
+  height: 45px;
+  margin-right: 8px;
+  margin-left: 10px;
+}
+
+.nbt-navbar-text:hover {
+  color: rgb(187, 184, 184) !important;
+}
+
+.nbt-section {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.nbt-header {
+  text-align: center;
+}
+
+.nbt-welcome {
+  font-size: 40pt;
+  margin-bottom: 15px;
+}
+
+.nbt-card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.black {
+  background-color: black;
+}
+
+.line {
+  height: 2px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
